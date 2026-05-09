@@ -51,7 +51,7 @@ const ThemeChanger = ({
                 className: 'mb-1',
               })
             ) : (
-              <span className="text-base-content opacity-70">Theme</span>
+              <span className="text-base-content opacity-70">Apariencia</span>
             )}
           </h5>
           <span className="text-base-content/50 capitalize text-sm">

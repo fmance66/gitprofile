@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Proyectos en Github',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -30,11 +30,11 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Mis Proyectos',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Proyecto 1',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -42,7 +42,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Proyecto 2',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
           imageUrl:
@@ -55,8 +55,8 @@ const CONFIG = {
   // eslint-disable-next-line prettier/prettier
   seo: { title: 'Portfolio de Fernando Mancevich', description: '', imageURL: '' },
   social: {
-    linkedin: 'fmancevich',
-    x: 'fmancevich',
+    linkedin: 'fernando-mancevich',
+    x: 'volvamos90',
     mastodon: 'fmancevich@mastodon.social',
     researchGate: '',
     facebook: '',
@@ -72,14 +72,15 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.fmancevich.com',
+    website: 'https://react-portfolio-gqwl.onrender.com',
     phone: '',
     email: '',
   },
   resume: {
     fileUrl:
       // Empty fileUrl will hide the `Download Resume` button.
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+      // 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+      'https://1drv.ms/w/c/e5451c34f8f8470f/IQAPR_j4NBxFIIDlMPkBAAAAAReI3Av8gq1Tg-BmtYNfcBI?e=r1nNSm',
   },
   skills: [
     'JavaScript',
@@ -99,18 +100,39 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Agencia de Recaudación y Control Aduanero',
+      position: 'Consejero Técnico',
+      from: 'Octubre 2024',
+      to: 'Presente',
+      companyLink: 'https://arca.gob.ar',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Administración Federal de Ingresos Públicos',
+      position: 'Consejero Técnico',
+      from: 'Enero 2024',
+      to: 'Octubre 2024',
+      companyLink: 'https://afip.gob.ar',
+    },
+    {
+      company: 'Administración Federal de Ingresos Públicos',
+      position: 'Jefe de Departamento',
+      from: 'Agosto 2020',
+      to: 'Enero 2024',
+      companyLink: 'https://afip.gob.ar',
+    },
+    {
+      company: 'Administración Federal de Ingresos Públicos',
+      position: 'Líder de Proyecto',
+      from: 'Julio 2003',
+      to: 'Agosto 2020',
+      companyLink: 'https://afip.gob.ar',
+    },
+    {
+      company: 'IBM Argentina',
+      position: 'Líder de Proyecto',
+      from: 'Julio 1993',
+      to: 'Julio 2003',
+      companyLink: 'https://ibm.com.ar',
     },
   ],
   certifications: [
@@ -123,33 +145,39 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Universidad de Morón',
+      degree: 'Licenciatura en Sistemas',
+      from: '2003',
+      to: '2007',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad de Buenos Aires',
+      degree: 'Licenciatura en Sistemas',
+      from: '1987',
+      to: '1993',
+    },
+    {
+      institution: 'Escuela Nacional de Educación Técnica N° 28',
+      degree: 'Técnico en Electrónica',
+      from: '1980',
+      to: '1986',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Título de la Publicación',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      journalName: 'Nombre del artículo',
+      authors: 'Guillermo García',
       link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: 'Título de la Publicación',
+      conferenceName: 'Nombre de la Conferencia',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
+      authors: 'Carlos Fernando Alcaráz',
       link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -222,11 +250,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Realizado con <a 
       class="text-primary" href="https://github.com/fmance66/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> y ❤️`,
 
   enablePWA: true,
 };

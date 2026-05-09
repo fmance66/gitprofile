@@ -179,14 +179,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Based in:"
+                  title="Con base en:"
                   value={profile.location}
                 />
               )}
               {profile.company && (
                 <OrganizationItem
                   icon={<FaBuilding />}
-                  title="Organization:"
+                  title="Organización:"
                   value={profile.company}
                   link={
                     isCompanyMention(profile.company.trim())
@@ -324,7 +324,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe />}
-                  title="Website:"
+                  title="Sitio web:"
                   value={social.website
                     .replace('https://', '')
                     .replace('http://', '')}

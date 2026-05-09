@@ -101,7 +101,7 @@ const PublicationCard = ({
                   )}
                   {item.authors && (
                     <p className="text-base-content opacity-50 text-sm">
-                      Author: {item.authors}
+                      Autor: {item.authors}
                     </p>
                   )}
                   {item.description && (
@@ -140,12 +140,12 @@ const PublicationCard = ({
                   <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
-                      : 'Publications'}
+                      : 'Publicaciones'}
                   </h3>
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Showcasing ${publications.length} publications`}
+                      : `Mostrando ${publications.length} publicaciones`}
                   </div>
                 </div>
               </div>
